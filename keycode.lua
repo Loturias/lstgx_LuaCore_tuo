@@ -1,8 +1,11 @@
 local KEY      = { NULL = 0x00 }
 
---KEY.LBUTTON
---KEY.RBUTTON
---KEY.MBUTTON
+-- Mouse button indices used by GetMouseState and MouseIs* functions.
+KEY.LBUTTON   = 1
+KEY.RBUTTON   = 2
+KEY.MBUTTON   = 3
+KEY.XBUTTON1  = 4
+KEY.XBUTTON2  = 5
 
 KEY.ESCAPE     = 6
 KEY.BACKSPACE  = 7

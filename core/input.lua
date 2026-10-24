@@ -124,7 +124,7 @@ lstg.eventDispatcher:addListener('onGetInput', function()
     for i = 1, 5 do
         MouseStatePre[i] = MouseState[i]
     end
-    for i = 1, 3 do
+    for i = 1, 5 do
         MouseState[i] = GetMouseState(i)
     end
     MouseState[4], MouseState[5] = GetMousePosition()
